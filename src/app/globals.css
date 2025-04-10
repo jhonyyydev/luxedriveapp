@@ -145,4 +145,13 @@
   .car-stat-label {
     @apply text-xs text-gray-500;
   }
+
+  .container {
+    @apply mx-auto;
+    max-width: 1200px;
+  }
+}
+
+#__next-build-watcher {
+  display: none;
 }

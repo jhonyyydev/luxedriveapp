@@ -8,7 +8,7 @@ const brands = [
   { name: "Volkswagen", logo: "/images/brands/volkswagen.svg?height=40&width=40" },
   { name: "Honda", logo: "/images/brands/honda.svg?height=40&width=40" },
   { name: "Nissan", logo: "/images/brands/nissan.svg?height=40&width=40" },
-  { name: "Chevrolet", logo: "/images/chevrolet.svg?height=40&width=40" },
+  { name: "Chevrolet", logo: "/images/brands/chevrolet.svg?height=40&width=40" },
   { name: "BMW", logo: "/images/brands/bmw.svg?height=40&width=40" },
   { name: "Renault", logo: "/images/brands/renault.svg?height=40&width=40" },
   { name: "Hyundai", logo: "/images/brands/hyundai.svg?height=40&width=40" },
@@ -18,10 +18,10 @@ const brands = [
 
 export default function BrandSection() {
   return (
-    <section className="py-40 px-4 bg-white">
+    <section className="pt-40 px-4 bg-white">
       <div className="container mx-auto">
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-xl font-bold">Rent by Brands</h2>
+          <h2 className="text-xl font-extrabold">Rent by Brands</h2>
           <div className="flex items-center">
             <span className="text-sm mr-2">View all</span>
             <svg
@@ -50,7 +50,7 @@ export default function BrandSection() {
               className="flex flex-col items-center justify-center p-4 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
             >
               <Image src={brand.logo || "/placeholder.svg"} alt={brand.name} width={60} height={60} className="mb-2" />
-              <span className="text-xs text-center">{brand.name}</span>
+              <span className="text-sm text-center font-medium">{brand.name}</span>
             </Link>
           ))}
         </div>
