@@ -3,7 +3,7 @@ import { Search, Calendar, Smile } from "lucide-react"
 
 export default function HowItWorks() {
     return (
-        <section className="px-4 pt-30 pt-20 bg-white">
+        <section className="px-4 pt-32 pb-20 bg-white">
             <div className="container mx-auto">
                 <h2 className="text-5xl font-bold text-center mb-6">Cómo funciona</h2>
                 <p className="text-center text-lg max-w-3xl mx-auto mb-16">

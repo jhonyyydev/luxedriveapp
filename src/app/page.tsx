@@ -5,6 +5,8 @@ import BodyTypeSection from "@/components/BodyTypeSection"
 import CardSelection from "@/components/CardSelection"
 import HowItWorks from "@/components/HowItWorks"
 import Services from "@/components/Services"
+import Footer from "@/components/Footer"
+import Testimonials from "@/components/Testimonials"
 
 export default function Home(){
   return(
@@ -16,6 +18,8 @@ export default function Home(){
       <CardSelection/>
       <HowItWorks/>
       <Services/>
+      <Testimonials/>
+      <Footer/>
     </main>
   )
 }

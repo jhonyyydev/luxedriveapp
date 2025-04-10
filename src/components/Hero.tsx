@@ -17,10 +17,10 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="absolute top-0 right-0 bottom-0 w-full md:w-3/4 -mr-50 -mt-40">
-        <div className="relative h-full w-[120%]">
+      <div className="absolute top-0 right-0 bottom-0 w-full md:w-3/4">
+        <div className="relative h-full w-full">
           <Image
-            src="/images/hero/luxury-car.png?height=800&width=1200"
+            src="/images/hero/luxury-car.png"
             alt="Auto de lujo"
             fill
             className="object-contain object-right"
