@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "LuxeDrive - Alquiler de Coches de Lujo",
+  icons: {
+    icon: '/images/body-types/suv.svg',
+  },
   description: "Maneja hoy, preocúpate después. Todo incluido en un pago mensual.",
 }
 
